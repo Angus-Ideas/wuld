@@ -1,7 +1,7 @@
 #page title
 page_title: WULD # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 team_title: ANGUS IDEAS # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
-team_icon: /assets/logoAngus.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+team_icon: /assets/isotipoAngus.jpeg # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 
 app_icon: /assets/logoWULD.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name: WULD # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
