@@ -28,7 +28,11 @@ $feature-icons-background-color: {{ site.data.info.feature_icons_background_colo
 $social-icons-foreground-color: {{ site.data.info.social_icons_foreground_color }};
 $social-icons-background-color: {{ site.data.info.social_icons_background_color }};
 
-@import 
+@import
     "base",
     "layout",
+    "header",
+    "footer",
+    "features",
+    "page",
     "github-markdown"

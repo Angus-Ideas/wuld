@@ -1,0 +1,13 @@
+.page {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    grid-column: 3/11;
+}
+
+@media only screen and (max-width: 768px) {
+    .page {
+        margin-top: 30px;
+        margin-bottom: 70px;
+        grid-column: 1/-1;
+    }
+}
