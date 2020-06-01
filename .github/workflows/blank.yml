@@ -2,20 +2,16 @@ name: CI
 
 # Controls when the action will run. Triggers the workflow on push events but only for the master branch
 on:
-  push:
-    branches: [ master ]
+    push:
+        branches: [master]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-
-    - name: Build and push page to Angus Ideas website
-      run: |
-        ls
-        echo "++++++++++++++"
-        gem install bundler jekyll
-        jekyll build
+    build:
+        runs-on: ubuntu-latest
+        container: ruby:2.7
+        steps:
+            - uses: actions/checkout@v2
+            - name: Build jekyll site
+              run: |
+                  bundle install 
+                  bundle exec jekyll build
