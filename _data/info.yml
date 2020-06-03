@@ -1,7 +1,6 @@
 #page title
 page_title: WULD # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
-team_title: ANGUS IDEAS # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
-team_icon: /assets/logoAngus.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+team_icon: /assets/logoAngusIdeas.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 
 app_icon: /assets/logoWULD.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name: WULD # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
@@ -62,21 +61,12 @@ features:
       description: # New Feature Description
       fontawesome_icon_name: # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
-# Theme Settings
-topbar_color: "#000000"
-topbar_transparency: 0.1
-topbar_title_color: "#ffffff"
-
-cover_image: /assets/headerimage.png # Replace with alternative image path or image URL.
-cover_overlay_color: "#363b3d"
+cover_overlay_color: "#0000"
 cover_overlay_transparency: 0.8
 
 body_background_color: "#ffffff"
 
 link_color: "#1d63ea"
-
-app_title_color: "#ffffff"
-app_description_color: "#ffffff"
 
 feature_title_color: "#000000"
 feature_text_color: "#666666"

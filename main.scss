@@ -4,23 +4,16 @@
 
 $body-color: {{ site.data.info.body_background_color }};
 
-$header-image: "{{ site.data.info.cover_image }}";
-
 $accent-color: {{ site.data.info.link_color }};
 
-$header-title-color: {{ site.data.info.topbar_title_color }};
-$app-title-color: {{ site.data.info.app_title_color }};
-$app-description-color: {{ site.data.info.app_description_color }};
+$sub-title-color: #fff;
+$header-description-color: #fff;
 
 $feature-title-color: {{ site.data.info.feature_title_color }};
 $feature-text-color: {{ site.data.info.feature_text_color }};
 $footer-text-color: {{ site.data.info.footer_text_color }};
 
-$header_color: {{ site.data.info.topbar_color }};
-$header_transparency: {{ site.data.info.topbar_transparency }};
-
-$image-overlay-color: {{ site.data.info.cover_overlay_color }};
-$image-overlay-transparency: {{ site.data.info.cover_overlay_transparency }};
+$header-title-color: #ffff;
 
 $feature-icons-foreground-color: {{ site.data.info.feature_icons_foreground_color }};
 $feature-icons-background-color: {{ site.data.info.feature_icons_background_color }};
