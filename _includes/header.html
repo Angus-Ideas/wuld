@@ -1,19 +1,16 @@
-<header>
-    <a href="/" target="_self">
-        <div class="logo">
-            <img class="headerIcon" src="{{ site.data.info.team_icon  | relative_url }}" />
-        </div>
-    </a>
+<header class="header-sticky" style="z-index: 980;" uk-sticky="top: 400px; animation: uk-animation-slide-top">
+  <div class="uk-container uk-flex uk-flex-between">
+    <div class="angus-logo">
+      <a href="/"><img data-src="/assets/logoAngusIdeas.png" alt="Angus Ideas" uk-img /></a>
+    </div>
 
-    <nav class="scroll">
-        <ul>
-            {% for page in site.pages %} {% if page.include_in_header == true %}
-            <li>
-                <a href="{{ page.url | relative_url }}" target="_self"
-                    >{{ page.title }}</a
-                >
-            </li>
-            {% endif %} {% endfor %}
-        </ul>
-    </nav>
+    <div class="header-links uk-flex flex-middle uk-text-center uk-flex-center">
+      <a class="" href="/justification">
+        Justification
+      </a>
+      <a class="" href="/team">
+        Team
+      </a>
+    </div>
+  </div>
 </header>

@@ -1,31 +1,14 @@
 ---
-# Front matter comment to ensure Jekyll properly reads file.
 ---
 
-$body-color: {{ site.data.info.body_background_color }};
+$grey-color: #1a1a1a;
+$navy-color: #273365;
+$violet-color: #334CB0;
 
-$accent-color: {{ site.data.info.link_color }};
-
-$sub-title-color: #fff;
-$header-description-color: #fff;
-
-$feature-title-color: {{ site.data.info.feature_title_color }};
-$feature-text-color: {{ site.data.info.feature_text_color }};
-$footer-text-color: {{ site.data.info.footer_text_color }};
-
-$header-title-color: #ffff;
-
-$feature-icons-foreground-color: {{ site.data.info.feature_icons_foreground_color }};
-$feature-icons-background-color: {{ site.data.info.feature_icons_background_color }};
-
-$social-icons-foreground-color: {{ site.data.info.social_icons_foreground_color }};
-$social-icons-background-color: {{ site.data.info.social_icons_background_color }};
 
 @import
     "base",
-    "layout",
     "header",
-    "footer",
-    "features",
-    "page",
-    "github-markdown"
+    "header-home",
+    "home",
+    "footer"
