@@ -3,12 +3,6 @@
 
 $grey-color: #1a1a1a;
 $navy-color: #273365;
-$violet-color: #334CB0;
+$violet-color: #334cb0;
 
-
-@import
-    "base",
-    "header",
-    "header-home",
-    "home",
-    "footer"
+@import "base", "header", "header-home", "home", "footer", "team";
