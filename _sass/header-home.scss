@@ -7,13 +7,12 @@
             margin-top: 15px;
             margin-bottom: 0;
             color: #fff;
-            font-size: 30px;
+            font-weight: lighter;
         }
 
         p {
             font-size: 20px;
             margin-top: 13px;
-            font-weight: lighter;
         }
 
         img {
@@ -33,8 +32,10 @@
 }
 
 .cap-container{
-    img {
+    img, .cap3D {
         width: 349px;
+        height: 300px;
+        background-color: white;
         margin-right: 60px;
         margin-bottom: -120px !important;
         border-radius: 25px;
