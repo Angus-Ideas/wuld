@@ -1,36 +1,41 @@
-.angus-logo {
-  width: 300px;
-  margin: 10px;
-  margin-left: 20px;
-}
+// .angus-logo {
+//   width: 300px;
+//   margin: 10px;
+//   margin-left: 20px;
+// }
 
-.header-container {
-  background-color: #c5c5c5;
-}
+// .header-container {
+//   background-color: #c5c5c5;
+// }
 
-.header-home {
-  background: rgba(0,0,0,0.8);
-}
+// .header-home {
+//   background: rgba(0,0,0,0.8);
+// }
+
+// .header-sticky {
+//   background: rgba(0,0,0,0.8);
+//   backdrop-filter: saturate(180%) blur(20px);
+// }
+
+// .header-links {
+//   align-items: center;
+
+//   a {
+//     margin-right: 20px;
+//     color: #ffffffab;
+//     font-size: 24px;
+
+//     &:link {
+//       text-decoration: none;
+//     }
+
+//     &:hover {
+//       color: #fff;
+//     }
+//   }
+// }
 
 .header-sticky {
-  background: rgba(0,0,0,0.8);
-  backdrop-filter: saturate(180%) blur(20px);
-}
-
-.header-links {
-  align-items: center;
-
-  a {
-    margin-right: 20px;
-    color: #ffffffab;
-    font-size: 24px;
-
-    &:link {
-      text-decoration: none;
-    }
-
-    &:hover {
-      color: #fff;
-    }
-  }
+    background-color: rgba(0,0,0,0.8) !important;
+    backdrop-filter: saturate(180%) blur(20px);
 }
